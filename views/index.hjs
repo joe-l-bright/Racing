@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src='/javascripts/racing.js'></script>
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <h2 id="winner"></h2>
+    <div id="main">
+    <div class="racer" data-name="Gavin"></div>
+    <div class="racer" data-name="Carson"></div>
+    <div class="racer" data-name="Camryn"></div>
+    <div class="racer" data-name="Joe"></div>
+    <div class="racer" data-name="Kelly"></div>
+    </div>
+    <button id="race" >Race!</button>
+  </body>
+</html>
